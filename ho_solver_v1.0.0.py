@@ -38,11 +38,11 @@ class HO():
     
     def get_kinectic(self, velocities:np.array):
         """TO IMPLEMENT: Return kinectic energy""" 
-        return velocities
+        return (1/2)*(velocities)**2
     
     def get_potential(self, positions:np.array):
         """TO IMPLEMENT: Return total energy""" 
-        return positions
+        return (1/2)*(positions)**2
     
 if __name__ == '__main__':
     t0=0
